@@ -7,5 +7,7 @@ jobs:
       - name: first step
         run: echo "practice is working"
       - name: second step
-        run: echo "second line"
+        run: |
+          echo "second line"
+          echo "third line"
         
