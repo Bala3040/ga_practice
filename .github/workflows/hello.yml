@@ -4,5 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: build step
-      runs: echo "hello, this is working"  
+      -  name: build step
+        run: echo "hello, this is working"
