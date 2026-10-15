@@ -1,0 +1,11 @@
+name: checking checkout
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: loading contents
+        uses: actions/checkout@v4
+        
+  
+  
