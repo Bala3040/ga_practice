@@ -1,0 +1,24 @@
+name: multijob
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first step
+        run: echo "building"
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first step
+        run: echo "testing"
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first step
+        run: echo "deploying"
+
+        
+        
+  
