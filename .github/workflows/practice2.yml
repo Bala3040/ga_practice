@@ -1,0 +1,11 @@
+name: practice
+on: workflow_dispatch
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first step
+        run: echo "practice is working"
+      - name: second step
+        run: echo "second line"
+        
