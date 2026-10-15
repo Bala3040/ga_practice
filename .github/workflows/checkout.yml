@@ -6,6 +6,7 @@ jobs:
     steps:
       - name: loading contents
         uses: actions/checkout@v4
-        
+      - name: printing practice.txt
+        run: cat practice.txt
   
   
